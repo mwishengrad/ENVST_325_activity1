@@ -21,7 +21,7 @@ peaks - prom
 peakNames <- c("Mount Marcy", "Algoquin Peak", "Mount Haystack")
 
 # set up data frame
-highPeaks <- data.frame(elev = peaks,
+highPeaks = data.frame(elev = peaks,
                         prom = prom,
                         name = peakNames)
 
@@ -31,6 +31,17 @@ highPeaks$elev
 highPeaks[1,1]
 highPeaks[,1]
 
-  
+#Prompt 1
+snowDepth = c(2.5,3,5,4.5)
+cmSnowDepth = snowDepth*2.54
+
+#Prompt 2
+difficultPeaks = data.frame(Name = c("Mount Haystack", "Mount Skylight", 
+                   "Dix Mountain", "Gray Peak"),
+                   Elevationft = c(4960, 4926, 4857, 4840),
+                   climbAscentft = c(3570, 4265, 2800, 4178),
+                   roundTripLengthft = c(17.8, 17.9, 13.2, 16))
+
+
 # homework ----
 
