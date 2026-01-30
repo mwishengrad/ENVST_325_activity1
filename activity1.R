@@ -42,6 +42,11 @@ difficultPeaks = data.frame(Name = c("Mount Haystack", "Mount Skylight",
                    climbAscentft = c(3570, 4265, 2800, 4178),
                    roundTripLengthft = c(17.8, 17.9, 13.2, 16))
 
+#Prompt 3
+(-44 * (9/5)) + 32
+(0 * (9/5)) + 32
+(20 * (9/5)) + 32
+(35 * (9/5)) + 32
 
 # homework ----
 
