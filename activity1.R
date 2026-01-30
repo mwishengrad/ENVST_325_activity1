@@ -38,9 +38,9 @@ cmSnowDepth = snowDepth*2.54
 #Prompt 2
 difficultPeaks = data.frame(Name = c("Mount Haystack", "Mount Skylight", 
                    "Dix Mountain", "Gray Peak"),
-                   Elevationft = c(4960, 4926, 4857, 4840),
-                   climbAscentft = c(3570, 4265, 2800, 4178),
-                   roundTripLengthft = c(17.8, 17.9, 13.2, 16))
+                   Elevation_ft = c(4960, 4926, 4857, 4840),
+                   climbAscent_ft = c(3570, 4265, 2800, 4178),
+                   roundTripLength_mi = c(17.8, 17.9, 13.2, 16))
 
 #Prompt 3
 (-44 * (9/5)) + 32
@@ -49,4 +49,12 @@ difficultPeaks = data.frame(Name = c("Mount Haystack", "Mount Skylight",
 (35 * (9/5)) + 32
 
 # homework ----
+
+#Question 1
+difficultPeaks[,2]/3.281
+  
+#Question 3
+longestMountain = difficultPeaks[2,]
+
+
 
